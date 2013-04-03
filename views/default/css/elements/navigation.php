@@ -193,29 +193,19 @@
 }
 .elgg-menu-site > li > ul {
     position: absolute;
-    opacity: 0;
-    visibility: hidden;
+	display: none;
     background-color: #FFFFFF;
 	border: 1px solid #DEDEDE;
     text-align: left;
-    top: 30px;
-    left: 50%;
-    margin-left: -91px;
+    top: 47px;
+    margin-left: -10px;
     width: 180px;
-
-	-webkit-transform: 	translateZ(0);
-	-webkit-transition: all .3s .1s;
-	-moz-transition: 	all .3s .1s;
-	-o-transition: 		all .3s .1s;
-	transition: 		all .3s .1s;
 
 	border-radius: 0 0 3px 3px;
 	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
 }
 .elgg-menu-site > li:hover > ul {
-    opacity: 1;
-    top: 47px;
-    visibility: visible;
+	display: block;
 }
 .elgg-menu-site-more li {
 	width: 180px;

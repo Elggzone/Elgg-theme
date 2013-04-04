@@ -15,7 +15,9 @@ function elgg_theme_init() {
 	elgg_extend_view('css/elgg', 'elgg_theme/css');
 
 	elgg_extend_view('page/elements/head', 'elgg_theme/meta', 1);
-	
+
+	elgg_register_js('respond', 'mod/elgg_theme/vendors/js/respond.min.js');
+	elgg_load_js('respond');	
 	elgg_register_js('elgg.theme', 'mod/elgg_theme/vendors/js/elgg_theme.js', 'footer');
 	elgg_load_js('elgg.theme');
 	

@@ -11,12 +11,10 @@
 	Typography
 *************************************** */
 body {
-	color: #444444;
-	font-size: 85%;
-	line-height: 1.4em;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif; 
-	
-	text-rendering: optimizelegibility;
+	color: #333;
+	font-size: 90%;
+	line-height: 1.4em;   
+	font-family: "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif; 
 }
 
 a {

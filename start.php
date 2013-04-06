@@ -10,7 +10,7 @@ elgg_register_event_handler('init','system','elgg_theme_init');
 function elgg_theme_init() {
 
 	elgg_register_event_handler('pagesetup', 'system', 'elgg_theme_pagesetup', 1000);
-	
+
 	// theme specific CSS
 	elgg_extend_view('css/elgg', 'elgg_theme/css');
 
@@ -20,7 +20,11 @@ function elgg_theme_init() {
 	elgg_load_js('respond');	
 	elgg_register_js('elgg.theme', 'mod/elgg_theme/vendors/js/elgg_theme.js', 'footer');
 	elgg_load_js('elgg.theme');
-	
+
+	if (!elgg_is_logged_in()) {	
+		elgg_unregister_plugin_hook_handler('output:before', 'layout', 'elgg_views_add_rss_link');
+	}
+		
 }
 
 function elgg_theme_pagesetup() {

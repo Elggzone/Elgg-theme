@@ -4,3 +4,8 @@ if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)
         // 
     });
 }
+
+// remove autofocus to avoid pagejump
+$(document).ready(function(){
+   $(".elgg-form-login input").removeClass("elgg-autofocus");
+});

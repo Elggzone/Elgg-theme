@@ -19,9 +19,7 @@
 #profile-details {
 	padding: 15px;
 }
-#profile-details h2 {
-	padding: 0;
-}
+
 /*** ownerblock ***/
 #profile-owner-block {
 	width: 200px;
@@ -50,11 +48,11 @@
 	padding-top: 1px;
 }
 .profile-admin-menu-wrapper li a {
-	color: red;
+	color: #FF0000;
 	margin-bottom: 0;
 }
 .profile-admin-menu-wrapper a:hover {
-	color: black;
+	color: #000;
 }
 /*** profile details ***/
 #profile-details .wire-status {

@@ -11,7 +11,7 @@
 ************************** */
 .elgg-button {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	color: #FFFFFF;
+	color: #FFF;
 	width: auto;
 	padding: 5px 12px;
 	cursor: pointer;
@@ -25,11 +25,10 @@
 a.elgg-button {
 	padding: 6px 12px;
 }
-.elgg-button:hover,
-.elgg-button-action:focus {
+.elgg-button:hover {
 	background: #60B6F7;
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #FFF;
 }
 .elgg-button-submit.elgg-state-disabled {
 	background: #DEDEDE;
@@ -41,7 +40,7 @@ a.elgg-button {
 	background: #FAA51A;
 }
 .elgg-button-cancel:hover {
-	background-color: #E38F07;
+	background: #E38F07;
 }
 .elgg-button-delete {
 	border: 1px solid #CC2900; /* Fallback */
@@ -49,27 +48,26 @@ a.elgg-button {
 	background: #FF3300;
 }
 .elgg-button-delete:hover {
-	background-color: #D63006;
+	background: #D63006;
 }
-
 .elgg-button-dropdown {
 	background: none;
 	text-decoration: none;
 	display: block;
 	position: relative;
 	margin-left: 0;	
-	color: white;
+	color: #FFF;
 	border: none;
 	box-shadow: none;
 	border-radius:	0;
 }
 .elgg-button-dropdown:hover {
-	color: white;
-	background-color: #60B8F7;
+	color: #FFF;
+	background: #60B8F7;
 	text-decoration: none;
 }
 .elgg-button-dropdown.elgg-state-active {
-	background-color: #60B8F7;
+	background: #60B8F7;
 	outline: none;
-	color: #FFFFFF;
+	color: #FFF;
 }

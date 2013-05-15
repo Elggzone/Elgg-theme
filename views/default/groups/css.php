@@ -50,14 +50,14 @@
 }
 
 .elgg-menu-groups-my-status li a {
-	color: #444444;
+	color: #444;
 	display: block;
 	margin: 3px 0 5px 0;
 	padding: 2px 4px 2px 0;
 }
 .elgg-menu-groups-my-status li a:hover {
-	color: #999999;
+	color: #999;
 }
 .elgg-menu-groups-my-status li.elgg-state-selected > a {
-	color: #999999;
+	color: #999;
 }

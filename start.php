@@ -20,11 +20,11 @@ function elgg_theme_init() {
 	elgg_load_js('respond');	
 	elgg_register_js('elgg.theme', 'mod/elgg_theme/vendors/js/elgg_theme.js', 'footer');
 	elgg_load_js('elgg.theme');
-
+	
 	if (!elgg_is_logged_in()) {	
 		elgg_unregister_plugin_hook_handler('output:before', 'layout', 'elgg_views_add_rss_link');
 	}
-		
+
 }
 
 function elgg_theme_pagesetup() {

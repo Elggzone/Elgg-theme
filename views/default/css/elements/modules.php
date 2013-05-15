@@ -29,7 +29,7 @@
 
 /* Popup */
 .elgg-module-popup {
-	background-color: white;
+	background-color: #FFF;
 	border: 1px solid #DCDCDC;	
 	z-index: 9999;
 	margin-bottom: 0;
@@ -46,7 +46,7 @@
 
 /* Dropdown */
 .elgg-module-dropdown {
-	background-color: white;
+	background-color: #FFF;
 	border: 1px solid #DEDEDE;
 	border-radius: 0 0 3px 3px;	
 	display:none;
@@ -74,7 +74,7 @@
 	box-shadow: inset 0 0 1px #FFFFFF;
 }
 .elgg-module-featured > .elgg-head * {
-	color: #666666;
+	color: #666;
 }
 .elgg-module-featured > .elgg-body {
 	padding: 10px;
@@ -88,7 +88,7 @@
 }
 .elgg-widget-add-control {
 	text-align: right;
-	margin: 5px 5px 15px;
+	margin: 0 5px 15px;
 }
 .elgg-widgets-add-panel {
 	padding: 10px;
@@ -102,8 +102,8 @@
 	margin: 2px 10px;
 	width: 200px;
 	padding: 4px;
-	background-color: #ccc;
-	border: 2px solid #b0b0b0;
+	background-color: #CCC;
+	border: 2px solid #B0B0B0;
 	font-weight: bold;
 }
 .elgg-widgets-add-panel li a {
@@ -114,7 +114,7 @@
 	cursor: pointer;
 }
 .elgg-widgets-add-panel .elgg-state-available:hover {
-	background-color: #bcbcbc;
+	background-color: #BCBCBC;
 }
 .elgg-widgets-add-panel .elgg-state-unavailable {
 	color: #888;
@@ -148,7 +148,7 @@ a.elgg-widget-collapse-button {
 }
 a.elgg-widget-collapse-button:hover,
 a.elgg-widget-collapsed:hover {
-	color: #9d9d9d;
+	color: #9D9D9D;
 	text-decoration: none;
 }
 a.elgg-widget-collapse-button:before {
@@ -158,7 +158,7 @@ a.elgg-widget-collapsed:before {
 	content: "\25BA";
 }
 .elgg-module-widget > .elgg-body {
-	background-color: white;
+	background-color: #FFF;
 	width: 100%;
 	overflow: hidden;
 	border-top: 1px solid #DCDCDC;

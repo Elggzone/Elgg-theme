@@ -4,7 +4,7 @@
 #login-dropdown {
 	position: absolute;
 	top: 0;
-	right: 10px;
+	right: 0;
 	z-index: 100;
 }
 #login-dropdown a {
@@ -42,7 +42,7 @@
 #friends_collections_accordian li h2 {
 	border-radius: 3px;	
 	background: none repeat scroll 0 0 #F0F0F0;
-	color: #444444;
+	color: #444;
 	cursor: pointer;
 	font-size: 1.2em;
 	margin: 10px 0;
@@ -56,7 +56,7 @@
 	font-size: 70%;
 }
 #friends_collections_accordian .friends-picker-main-wrapper {
-	background: none repeat scroll 0 0 white;
+	background: none repeat scroll 0 0 #FFF;
 	display: none;
 	padding: 0;
 }

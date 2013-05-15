@@ -43,7 +43,7 @@ input[type=text]:focus,
 input[type=password]:focus {
 	border: solid 1px #C2C2C2;
 	background: #F0F0F0;
-	color:#333;
+	color: #333;
 }
 .elgg-longtext-control {
 	float: right;
@@ -67,7 +67,9 @@ input[type="radio"] {
 	display: inline;
 	padding-right: 10px;
 }
-
+.elgg-form-account {
+	margin-bottom: 15px;
+}
 .elgg-form-login, .elgg-form-account {
 	max-width: 450px;
 }
@@ -82,7 +84,7 @@ input[type="radio"] {
 	font-size:4em !important;
 	text-align: left;
 	margin:10px 0 20px !important;
-	color:#999 !important;
+	color: #999 !important;
 	background: none !important;
 	padding:0 !important;
 }
@@ -108,7 +110,7 @@ input[type="radio"] {
 	border-radius: 3px;
 }
 .friendspicker-savebuttons {
-	background: white;
+	background: #FFF;
 	border-radius: 3px;	
 	margin:0 10px 10px;
 }
@@ -144,12 +146,12 @@ input[type="radio"] {
 .friends-picker-navigation ul li {
 	float: left;
 	margin:0;
-	background:white;
+	background: #FFF;
 }
 .friends-picker-navigation a {
 	font-weight: bold;
 	text-align: center;
-	background: white;
+	background: #FFF;
 	color: #999;
 	text-decoration: none;
 	display: block;
@@ -158,16 +160,16 @@ input[type="radio"] {
 	border-radius: 3px;
 }
 .tabHasContent {
-	background: white;
-	color:#333 !important;
+	background: #FFF;
+	color: #333 !important;
 }
 .friends-picker-navigation li a:hover {
 	background: #333;
-	color:white !important;
+	color: #FFF !important;
 }
 .friends-picker-navigation li a.current {
 	background: #5097CF;
-	color:white !important;
+	color: #FFF !important;
 }
 .friends-picker-navigation-l, .friends-picker-navigation-r {
 	position: absolute;
@@ -220,7 +222,7 @@ input[type="radio"] {
 	max-width: 600px;
 }
 .ui-autocomplete {
-	background-color: white;
+	background-color: #FFF;
 	border: 1px solid #DCDCDC;
 	overflow: hidden;
 	border-radius: 3px;
@@ -230,14 +232,14 @@ input[type="radio"] {
 	border-radius: 3px;
 }
 .ui-autocomplete .ui-menu-item:hover {
-	background-color: #eee;
+	background-color: #EEE;
 }
 .ui-autocomplete a:hover {
 	text-decoration: none;
 	color: #5097CF;
 }
 .ui-autocomplete a.ui-state-hover {
-	background-color: #eee;
+	background-color: #EEE;
 	display: block;
 }
 
@@ -267,7 +269,7 @@ input[type="radio"] {
 
 	margin-top: 3px;
 	width: 208px;
-	background-color: white;
+	background-color: #FFF;
 	border: 1px solid #0054A7;
 	border-radius: 3px;
 	overflow: hidden;
@@ -280,12 +282,12 @@ input[type="radio"] {
 .ui-datepicker-header {
 	position: relative;
 	background: #5097CF;
-	color: white;
+	color: #FFF;
 	padding: 2px 0;
 	border-bottom: 1px solid #0054A7;
 }
 .ui-datepicker-header a {
-	color: white;
+	color: #FFF;
 }
 .ui-datepicker-prev, .ui-datepicker-next {
 	position: absolute;
@@ -327,12 +329,12 @@ input[type="radio"] {
 .ui-datepicker-calendar .ui-state-default {
 	border: 1px solid #DCDCDC;
 	color: #5097CF;;
-	background: #fafafa;
+	background: #FAFAFA;
 }
 .ui-datepicker-calendar .ui-state-hover {
-	border: 1px solid #aaa;
+	border: 1px solid #AAA;
 	color: #0054A7;
-	background: #eee;
+	background: #EEE;
 }
 .ui-datepicker-calendar .ui-state-active,
 .ui-datepicker-calendar .ui-state-active.ui-state-hover {

@@ -7,15 +7,15 @@
 ?>
 
 .pages-nav a {
-	color: #444444;
+	color: #444;
 }
 .pages-nav.treeview ul {
 	background-color: transparent;
 }
 .pages-nav.treeview a.selected {
-	color: #999999;
+	color: #999;
 	background: none;
 }
 .pages-nav.treeview .hover {
-	color: #999999;
+	color: #999;
 }

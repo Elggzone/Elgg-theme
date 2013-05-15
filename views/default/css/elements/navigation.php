@@ -11,7 +11,7 @@
 	PAGINATION
 *************************************** */
 .elgg-pagination {
-	margin: 10px 0;
+	margin: 20px 0 10px;
 	display: block;
 	text-align: center;
 }
@@ -32,19 +32,17 @@
 .elgg-pagination span {
 	display: inline-block;	
 	padding: 6px 15px;
-	color: #444444;
-	font-size: 12px;
-	
+	color: #444;		
     border-color: #DCDCDC;
     border-style: solid;
     border-width: 1px 1px 1px 0;
 }
 .elgg-pagination a:hover {
-	color: #999999;
+	color: #999;
 	text-decoration: none;
 }
 .elgg-pagination .elgg-state-disabled span {
-	color: #CCCCCC;
+	color: #CCC;
 }
 .elgg-pagination .elgg-state-selected span {
 	color: #999;
@@ -73,20 +71,20 @@
 	padding: 4px 15px 6px;
 	text-align: center;
 	height: auto;
-	color: #666666;
+	color: #666;
 }
 .elgg-tabs a:hover {
 	background: #DEDEDE;
-	color: #444444;
+	color: #444;
 }
 .elgg-tabs .elgg-state-selected {
 	border-color: #DCDCDC;
-	background: white;
+	background: #FFF;
 }
 .elgg-tabs .elgg-state-selected a {
 	position: relative;
 	top: 1px;
-	background: white;
+	background: #FFF;
 }
 
 /* ***************************************
@@ -97,7 +95,7 @@
 	font-weight: normal;
 	line-height: 1.4em;
     padding: 0 10px 1px 0;
-	color: #bababa;
+	color: #BABABA;
 }
 .elgg-breadcrumbs > li {
 	display: inline-block;
@@ -135,7 +133,7 @@
 
 .elgg-menu-topbar > li > a {
 	padding-top: 5px;
-	color: #eee;
+	color: #EEE;
 	margin: 1px 15px 0;
 }
 
@@ -163,6 +161,7 @@
 .elgg-menu-topbar > li > a.elgg-topbar-avatar {
 	width: 18px;
 	height: 18px;
+	padding-top: 7px;
 }
 
 /* ***************************************
@@ -171,7 +170,7 @@
 .elgg-menu-site {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	float: left;
-	left: 10px;
+	left: 0;
 	top: 0;
 	position: relative;
 	z-index: 1;
@@ -180,7 +179,7 @@
 	float: left;
 }
 .elgg-menu-site > li > a {
-	color: #FFFFFF;
+	color: #FFF;
 	padding: 14px 18px;
 }
 .elgg-menu-site > li > a:hover {
@@ -189,16 +188,16 @@
 .elgg-menu-site > .elgg-state-selected > a,
 .elgg-menu-site > li:hover > a {
 	background-color: #60B8F7;
-	color: #FFFFFF;
+	color: #FFF;
 }
 .elgg-menu-site > li > ul {
     position: absolute;
 	display: none;
-    background-color: #FFFFFF;
+    background-color: #FFF;
 	border: 1px solid #DEDEDE;
     text-align: left;
     top: 47px;
-    margin-left: -10px;
+    margin-left: 0;
     width: 180px;
 
 	border-radius: 0 0 3px 3px;
@@ -212,8 +211,8 @@
 }
 .elgg-menu-site-more > li > a {
 	padding: 10px 20px;
-	background-color: #FFFFFF;
-	color: #444444;
+	background-color: #FFF;
+	color: #444;
 }
 .elgg-menu-site-more > li:last-child > a,
 .elgg-menu-site-more > li:last-child > a:hover {
@@ -222,7 +221,7 @@
 .elgg-menu-site-more > li.elgg-state-selected > a,
 .elgg-menu-site-more > li > a:hover {
 	background-color: #F0F0F0;
-	color: #444444;
+	color: #444;
 }
 .elgg-more {
 	width: 182px;
@@ -236,6 +235,7 @@
 *************************************** */
 .elgg-menu-title {
 	float: right;
+	margin-top: -1px;
 }
 .elgg-menu-title > li {
 	display: inline-block;
@@ -268,20 +268,20 @@
 	padding: 4px 15px 6px;
 	text-align: center;
 	height: auto;
-	color: #666666;
+	color: #666;
 }
 .elgg-menu-filter > li > a:hover {
 	background: #DEDEDE;
-	color: #444444;
+	color: #444;
 }
 .elgg-menu-filter > .elgg-state-selected {
 	border-color: #DCDCDC;
-	background: white;
+	background: #FFF;
 }
 .elgg-menu-filter > .elgg-state-selected > a {
 	position: relative;
 	top: 1px;
-	background: white;
+	background: #FFF;
 }
 
 /* ***************************************
@@ -291,16 +291,16 @@
 	margin-bottom: 15px;
 }
 .elgg-menu-page a {
-	color: #444444;
+	color: #444;
 	display: block;
 	margin: 0 0 3px;
 	padding: 2px 4px 2px 0;
 }
 .elgg-menu-page a:hover {
-	color: #999999;
+	color: #999;
 }
 .elgg-menu-page li.elgg-state-selected > a {
-	color: #999999;
+	color: #999;
 	text-decoration: underline;
 }
 .elgg-menu-page .elgg-child-menu {
@@ -329,7 +329,7 @@
 	min-width: 180px;
 	max-width: 250px;
 	border: 1px solid #DEDEDE;
-	background-color: #FFFFFF;
+	background-color: #FFF;
 	
 	border-radius: 0 3px 3px 3px;
 	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
@@ -345,19 +345,17 @@
 }
 .elgg-menu-hover > li a {
 	padding: 6px 18px;
-	font-size: 92%;
 }
 .elgg-menu-hover a:hover {
-	background-color: #F0F0F0;
-	
+	background-color: #F0F0F0;	
 	text-decoration: none;
 }
 .elgg-menu-hover-admin a {
-	color: red;
+	color: #FF0000;
 }
 .elgg-menu-hover-admin a:hover {
-	color: white;
-	background-color: red;
+	color: #FFF;
+	background-color: #FF0000;
 }
 
 /* ***************************************
@@ -371,7 +369,7 @@
 /* IE 8 fix */
 .elgg-menu-footer > li:before {
 	content: "\007C";
-	padding: 0 4px;
+	padding: 0 6px;
 }
 .elgg-menu-footer > li:first-child:before {
 	content: "";
@@ -397,26 +395,26 @@
 
 .elgg-menu-general > li:after {
 	content: "\007C";
-	padding: 0 4px;
+	padding: 0 6px;
 }
 
 /* ***************************************
 	ENTITY AND ANNOTATION
 *************************************** */
 <?php // height depends on line height/font size ?>
-.elgg-menu-entity, elgg-menu-annotation {
+.elgg-menu-entity, .elgg-menu-annotation {
 	float: right;
 	margin-left: 15px;
 	font-size: 90%;
-	color: #aaa;
+	color: #AAA;
 	line-height: 16px;
-	height: 16px;
+	height: auto;
 }
 .elgg-menu-entity > li, .elgg-menu-annotation > li {
 	margin-left: 15px;
 }
 .elgg-menu-entity > li > a, .elgg-menu-annotation > li > a {
-	color: #aaa;
+	color: #AAA;
 }
 <?php // need to override .elgg-menu-hz ?>
 .elgg-menu-entity > li > a, .elgg-menu-annotation > li > a {
@@ -433,13 +431,13 @@
 	display: block;
 	margin: 3px 0 5px 0;
 	padding: 2px 4px 2px 0;
-	color: #444444;
+	color: #444;
 }
 .elgg-menu-owner-block li a:hover {
-	color: #999999;
+	color: #999;
 }
 .elgg-menu-owner-block li.elgg-state-selected > a {
-	color: #999999;
+	color: #999;
 	text-decoration: underline;
 }
 
@@ -457,7 +455,7 @@
 	float: right;
 	margin-left: 15px;
 	font-size: 90%;
-	color: #aaa;
+	color: #AAA;
 	line-height: 16px;
 	height: 16px;
 }
@@ -466,7 +464,7 @@
 	margin-left: 5px;
 }
 .elgg-menu-river > li > a {
-	color: #aaa;
+	color: #AAA;
 	height: 16px;
 }
 <?php // need to override .elgg-menu-hz ?>

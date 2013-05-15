@@ -21,7 +21,7 @@
 }
 .elgg-image-block .elgg-image-alt {
 	float: right;
-	margin-left: 5px;
+	margin-left: 8px;
 }
 
 /* ***************************************
@@ -42,6 +42,9 @@
 }
 .elgg-item .elgg-content {
 	margin: 10px 5px 10px 0;
+}
+.elgg-content {
+	clear: both;
 }
 
 /* ***************************************
@@ -74,20 +77,20 @@
 	border: 1px solid #DCDCDC;
 }
 .elgg-table th {
-	background-color: #ddd;
+	background-color: #DDD;
 }
 .elgg-table tr:nth-child(odd), .elgg-table tr.odd {
-	background-color: #fff;
+	background-color: #FFF;
 }
 .elgg-table tr:nth-child(even), .elgg-table tr.even {
-	background-color: #f0f0f0;
+	background-color: #F0F0F0;
 }
 .elgg-table-alt {
 	width: 100%;
 	border-top: 1px solid #DCDCDC;
 }
 .elgg-table-alt th {
-	background-color: #eee;
+	background-color: #EEE;
 	font-weight: bold;
 }
 .elgg-table-alt td, .elgg-table-alt th {
@@ -112,7 +115,7 @@
 	Messages
 *************************************** */
 .elgg-message {
-	color: white;
+	color: #FFF;
 	display: block;
 	padding: 10px 20px;
 	cursor: pointer;
@@ -121,13 +124,20 @@
 	border-radius: 3px;
 }
 .elgg-state-success {
-	background-color: black;
+	background-color: #000;
 }
 .elgg-state-error {
-	background-color: red;
+	background-color: #FF0000;
 }
 .elgg-state-notice {
 	background-color: #5097CF;
+}
+.elgg-box-error {
+	padding: 20px;
+	color: #B94A48;
+	background-color: #F8E8E8;
+	border: 1px solid #E5B7B5;
+	border-radius: 5px;
 }
 
 /* ***************************************
@@ -170,7 +180,6 @@
 .elgg-river-comments-tab {
 	display: block;
 	background-color: #EEE;
-	color: #5097CF;
 	margin-top: 5px;
 	width: auto;
 	float: right;
@@ -240,7 +249,11 @@
 .elgg-photo {
 	border: 1px solid #DCDCDC;
 	padding: 3px;
-	background-color: white;
+	background-color: #FFF;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: 	border-box;
+	box-sizing: 		border-box;
 }
 
 /* ***************************************
@@ -261,4 +274,5 @@
 }
 .elgg-tagcloud {
 	text-align: justify;
+	margin-bottom: 5px; 
 }

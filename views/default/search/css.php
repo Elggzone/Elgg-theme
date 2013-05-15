@@ -24,14 +24,14 @@ Search plugin
 }
 .search-heading-category {
 	margin-top: 20px;
-	color: #666666;
+	color: #666;
 }
 
 .search-highlight {
-	background-color: #bbdaf7;
+	background-color: #BBDAF7;
 }
 .search-highlight-color1 {
-	background-color: #bbdaf7;
+	background-color: #BBDAF7;
 }
 .search-highlight-color2 {
 	background-color: #A0FFFF;
@@ -40,7 +40,7 @@ Search plugin
 	background-color: #FDFFC3;
 }
 .search-highlight-color4 {
-	background-color: #CCCCCC;
+	background-color: #CCC;
 }
 .search-highlight-color5 {
 	background-color: #08A7E7;

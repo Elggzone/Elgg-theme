@@ -6,7 +6,7 @@
  * @subpackage UI
  */
 ?>
-
+/* <style> /**/
 
 /* ***************************************
 	Form Elements
@@ -38,12 +38,16 @@ input, textarea {
 	-moz-box-sizing: 	border-box;
 	box-sizing: 		border-box;
 }
-textarea:focus,
+input[type=email]:focus,
+input[type=password]:focus,
 input[type=text]:focus,
-input[type=password]:focus {
+input[type=url]:focus,
+textarea:focus {
 	border: solid 1px #C2C2C2;
 	background: #F0F0F0;
-	color: #333;
+	/* We remove outlines from specific input types so we can leave the browser
+	   defaults (like glows) for everything else */
+	outline: 0 none;
 }
 .elgg-longtext-control {
 	float: right;

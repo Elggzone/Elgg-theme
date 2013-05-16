@@ -1,9 +1,12 @@
 <?php
 /**
- * Elgg theme CSS
+ * CSS Elgg theme specific
+ *
+ * @package elgg_theme
+ * @subpackage UI
  */
-
 ?>
+/* <style> /**/
 
 /* ***************************************
 	MISC
@@ -160,7 +163,7 @@ html {
         padding-right: 0;
     }
     /***** WIDGETS ******/
-	.elgg-col-alt,
+	.elgg-col-1of3,
     .elgg-col-2of3,	
     #elgg-widget-col-1,
     #elgg-widget-col-2,

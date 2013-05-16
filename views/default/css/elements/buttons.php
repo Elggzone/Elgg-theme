@@ -6,11 +6,13 @@
  * @subpackage UI
  */
 ?>
+/* <style> /**/
+
 /* **************************
 	BUTTONS
 ************************** */
 .elgg-button {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;	
 	color: #FFF;
 	width: auto;
 	padding: 5px 12px;

@@ -5,12 +5,12 @@
  * Contains CSS for the page shell and page layout
  *
  * Default layout: 990px wide, centered. Used in default page shell
- * Color scheme, check culer.com, base #427DAB
  *
  * @package Elgg.Core
  * @subpackage UI
  */
 ?>
+/* <style> /**/
 
 /* ***************************************
 	PAGE LAYOUT

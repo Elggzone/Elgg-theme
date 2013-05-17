@@ -18,7 +18,7 @@
 *************************************** */
 
 #current-user-avatar {
-	border-right:1px solid #EBEBEB;
+	border-right: 1px solid #EBEBEB;
 }
 #avatar-croppingtool {
 	border-top: 1px solid #DCDCDC;

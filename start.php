@@ -112,6 +112,3 @@ function elgg_theme_pagesetup() {
 		));
 	}
 }
-
-
-

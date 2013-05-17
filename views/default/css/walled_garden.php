@@ -4,6 +4,8 @@
  */
 
 ?>
+/* <style> /**/
+
 .elgg-body-walledgarden {
 	margin: 100px auto 0;
 	position: relative;

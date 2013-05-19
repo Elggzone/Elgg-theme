@@ -220,14 +220,12 @@
 <?php //@todo location-dependent styles ?>
 .elgg-river-item form {
 	background-color: #EEE;
-	padding: 4px;
+	padding: 6px;
 	border-radius: 3px;		
-	float: left;
-    width: 100%;
     height: auto;
 }
 .elgg-river-item input[type=text] {
-	width: 80%;
+	width: 78%;
 }
 .elgg-river-item input[type=submit] {
 	margin: 0 0 0 10px;

@@ -155,6 +155,12 @@ html {
         float: none;
         text-align: center;
     }
+	.elgg-river-item input[type=text] {
+		width: 100%;
+	}
+	.elgg-river-item input[type=submit] {
+		margin: 5px 0 0 0;
+	}
 	/***** CUSTOM INDEX ******/
     .elgg-col-1of2 {
         width: 100%;

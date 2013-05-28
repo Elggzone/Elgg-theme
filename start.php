@@ -98,17 +98,18 @@ function elgg_theme_pagesetup() {
 		}		
 		
 		elgg_unregister_menu_item('footer', 'report_this');
-		
-		$href = "javascript:elgg.forward('reportedcontent/add'";
-		$href .= "+'?address='+encodeURIComponent(location.href)";
-		$href .= "+'&title='+encodeURIComponent(document.title));";
-		
-		elgg_register_menu_item('extras', array(
-			'name' => 'report_this',
-			'href' => $href,
-			'title' => elgg_echo('reportedcontent:this:tooltip'),
-			'text' => elgg_view_icon('report-this'),
-			'priority' => 500,
-		));
+		if (elgg_is_active_plugin('reportedcontent')) {
+			$href = "javascript:elgg.forward('reportedcontent/add'";
+			$href .= "+'?address='+encodeURIComponent(location.href)";
+			$href .= "+'&title='+encodeURIComponent(document.title));";
+
+			elgg_register_menu_item('extras', array(
+				'name' => 'report_this',
+				'href' => $href,
+				'title' => elgg_echo('reportedcontent:this:tooltip'),
+				'text' => elgg_view_icon('report-this'),
+				'priority' => 500,
+			));
+		}
 	}
 }

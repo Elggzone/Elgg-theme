@@ -134,6 +134,7 @@
 	background-color: #5097CF;
 }
 .elgg-box-error {
+	margin-top: 10px;
 	padding: 20px;
 	color: #B94A48;
 	background-color: #F8E8E8;
@@ -185,7 +186,7 @@
 	width: auto;
 	float: right;
 	font-size: 85%;
-	padding: 1px 7px;
+	padding: 1px 8px;
 	border-radius: 3px 3px 0 0;
 }
 
@@ -205,6 +206,9 @@
 	border-bottom: none;
 	padding: 4px 4px 4px 10px;
 	margin-bottom: 2px;
+}
+.elgg-river-comments li .elgg-output {
+	padding-right: 5px;
 }
 .elgg-river-comments .elgg-media {
 	padding: 0;

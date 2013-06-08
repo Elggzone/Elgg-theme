@@ -43,15 +43,6 @@ function elgg_theme_pagesetup() {
 		));
 	}
 	
-	$href = "http://elgg.org";
-	elgg_register_menu_item('footer', array(
-		'name' => 'elgg',
-		'href' => $href,
-		'text' => elgg_echo('elgg_theme:elgg'),
-		'priority' => 1,
-		'section' => 'alt',
-	));	
-	
 	if (elgg_is_logged_in()) {
 
 		$user = elgg_get_logged_in_user_entity();

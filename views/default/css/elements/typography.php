@@ -97,6 +97,19 @@ h6 { font-size: 0.8em; }
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 	text-decoration: none;
 }
+
+@media (max-width: 640px) {
+	.elgg-page-header h1 {
+		display: table;
+		font-size: 1em;
+		height: 100%;
+	}
+	.elgg-page-header h1 > a {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
 /* Push down headings without the class elgg-heading-main (e.g. logged out activity, friends, register) */
 .elgg-main > h2 {
     padding-top: 16px;
